@@ -23,3 +23,17 @@ footer {
   padding: 15px;
   border-radius: 25px;
 }
+
+#photo {
+  width: 250px;
+  height: 350px;
+}
+
+#form {
+  padding: 10px;
+  margin: 25px;
+}
+
+input {
+  width: 300px;
+}
