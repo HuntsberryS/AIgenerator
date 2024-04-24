@@ -3,6 +3,9 @@ body {
   text-align: center;
 }
 
+h2 {
+  padding-top: 40px;
+}
 #button {
   background-color: #ffaaa5;
   color: black;
@@ -16,10 +19,17 @@ body {
 
 main {
   background-color: #ffd3b6;
-  margin: 120px auto;
+  margin: 80px auto;
   padding: 15px;
   border-radius: 25px;
   width: 700px;
+}
+h6 {
+  margin: 0;
+  padding-right: 170px;
+}
+#cuisine {
+  margin-bottom: 7px;
 }
 footer {
   opacity: 0.7;
