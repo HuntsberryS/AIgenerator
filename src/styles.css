@@ -8,8 +8,9 @@ button {
   color: black;
   border-radius: 25px;
   border: none;
-  padding: 10px;
-  margin: 25px;
+  padding: 20px;
+  margin: 20px;
+  font-size: 16px;
 }
 
 footer {
@@ -27,13 +28,13 @@ footer {
 #photo {
   width: 250px;
   height: 350px;
-}
-
-#form {
-  padding: 10px;
-  margin: 25px;
+  margin-top: 20px;
 }
 
 input {
   width: 300px;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 7px;
+  border: none;
 }
