@@ -1,24 +1,40 @@
 body {
-  background-color: #fcf8f3;
+  background-image: url("eggy.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   text-align: center;
+  color:white;
+  height: 100vh;
 }
+
+
+.caveat-button {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
 
 h2 {
   padding-top: 40px;
+  font-size: 42px;
+  font-family: "Caveat";
 }
 #button {
-  background-color: #ffaaa5;
+  background-color: #fae3b0;
   color: black;
   border-radius: 25px;
   left: 50%;
   border: none;
   padding: 20px;
-  margin: 20px;
-  font-size: 16px;
+  margin: 40px;
+  font-size: 28px;
+  font-family: "Caveat";
 }
 
 main {
-  background-color: #ffd3b6;
+  background-color: #1500f8;
   margin: 80px auto;
   padding: 15px;
   border-radius: 25px;
@@ -26,26 +42,28 @@ main {
 }
 h6 {
   margin: 0;
-  padding-right: 170px;
+  font-family: "Caveat";
+  text-align: center;
+  font-size: 16px;
 }
 #cuisine {
   margin-bottom: 7px;
-}
-footer {
-  opacity: 0.7;
-  display: inline-block;
-  margin-top: 20px;
-  bottom: 0;
+  font-size: 18px;
 }
 
-#photo {
-  width: 250px;
-  height: 350px;
-  margin-top: 20px;
+footer {
+  opacity: 0.7;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin: auto 0;
+  font-size: 24px;
+  color: black;
+
 }
 
 input {
-  width: 300px;
+  width: 500px;
   padding: 10px;
   margin: 20px;
   border-radius: 7px;
@@ -55,6 +73,42 @@ input {
   margin: 30px;
   padding: 10px;
   line-height: 2;
-  font-size: large;
+  font-size: 28px;
   font-weight: 700;
+  font-family: "Caveat";
+}
+@media screen and (max-width: 600px){
+    
+  h2 {
+    padding-top: 20px;
+    font-size: 21px;
+  }
+  #button {
+    padding: 20px;
+    margin: 40px;
+    font-size: 18px;
+  }
+  
+  main {
+    margin: 80px auto;
+    width: 400px;
+  }
+  h6 {
+    font-size: 12px;
+  }
+  #cuisine {
+    font-size: 14px;
+  }
+  
+  footer {
+    font-size: 14px;
+  
+  }
+  
+  input {
+    width: 300px;
+  }
+  #recipespot {
+    font-size: 18px;
+  }
 }
