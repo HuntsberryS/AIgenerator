@@ -1,41 +1,31 @@
 body {
-  background-image: url("eggy.png");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: azure;
   text-align: center;
-  color:white;
+  color: white;
   height: 100vh;
 }
 
-
-.caveat-button {
-  font-family: "Caveat", cursive;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-}
-
-
 h2 {
   padding-top: 40px;
-  font-size: 42px;
-  font-family: "Caveat";
+  font-size: 32px;
+  color: black;
 }
 #button {
   background-color: #fae3b0;
   color: black;
   border-radius: 25px;
   left: 50%;
-  border: none;
-  padding: 20px;
+  border: solid 1px gray;
+  padding: 10px;
   margin: 40px;
-  font-size: 28px;
-  font-family: "Caveat";
+  width: auto;
+  font-size: 18px;
 }
 
 main {
-  background-color: #1500f8;
+  background-color: #ffffff;
   margin: 80px auto;
+  border: solid 1px gray;
   padding: 15px;
   border-radius: 25px;
   width: 700px;
@@ -53,13 +43,11 @@ h6 {
 
 footer {
   opacity: 0.7;
-  position: fixed;
   bottom: 0;
   width: 100%;
   margin: auto 0;
   font-size: 24px;
   color: black;
-
 }
 
 input {
@@ -67,7 +55,7 @@ input {
   padding: 10px;
   margin: 20px;
   border-radius: 7px;
-  border: none;
+  border: solid 1px grey;
 }
 #recipespot {
   margin: 30px;
@@ -75,10 +63,9 @@ input {
   line-height: 2;
   font-size: 28px;
   font-weight: 700;
-  font-family: "Caveat";
+  color: black;
 }
-@media screen and (max-width: 600px){
-    
+@media screen and (max-width: 600px) {
   h2 {
     padding-top: 20px;
     font-size: 21px;
@@ -88,7 +75,7 @@ input {
     margin: 40px;
     font-size: 18px;
   }
-  
+
   main {
     margin: 80px auto;
     width: 400px;
@@ -99,12 +86,11 @@ input {
   #cuisine {
     font-size: 14px;
   }
-  
+
   footer {
     font-size: 14px;
-  
   }
-  
+
   input {
     width: 300px;
   }
